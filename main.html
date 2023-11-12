@@ -11,17 +11,18 @@
 
 
 <ol>
-	<li>Bike</li>
-	<li>Home</li>
-<li>Wife</li>
-
-	
-</ol>
-
-<ul>
-	<li data-salary="$63,193" onclick="show(this);">Designers</li>
+  <li data-salary="$63,193" onclick="show(this);">Designers</li>
   <li data-salary="$76,404" onclick="show(this);">Developers</li>
   <li data-salary="$86,139" onclick="show(this);">Managers</li>
+</ol>
+
+	
+
+
+<ul>
+	<li data-ns-test="holidayList" onclick="show(this);">Designers</li>
+  <li data-ns-test="holidayList" onclick="show(this);">Developers</li>
+  <li data-ns-test="holidayList" onclick="show(this);">Managers</li>
 </ul>
 
 
@@ -30,6 +31,8 @@
 		 let show = element => {
      alert("Salary = " + element.getAttribute('data-salary'));
   }
+  
+	
 </script>
 
 </body>
