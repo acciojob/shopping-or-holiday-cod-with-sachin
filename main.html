@@ -19,14 +19,17 @@
 </ol>
 
 <ul>
-	<li>Hyderabad</li>
-	<li>Mumbai</li>
-	<li>Kolkata</li>
+	<li data-salary="$63,193" onclick="show(this);">Designers</li>
+  <li data-salary="$76,404" onclick="show(this);">Developers</li>
+  <li data-salary="$86,139" onclick="show(this);">Managers</li>
 </ul>
 
 
 	
     <script type="text/javascript" src="./script.js">
+		 let show = element => {
+     alert("Salary = " + element.getAttribute('data-salary'));
+  }
 </script>
 
 </body>
